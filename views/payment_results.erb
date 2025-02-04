@@ -2,16 +2,16 @@
 
 <dl>
   <dt>APR</dt>
-  <dd><%= "#{'%.4f' % @apr.to_s_percentage}%" %></dd>
+  <dd><%= @formatted_apr %></dd>
 
 <dt>Number of years</dt>
-<dd><%= @years %></dd>
+<dd><%= @formatted_years %></dd>
 
 <dt>Principal</dt>
-<dd><%= "$#{'%.2f' % @principal}" %></dd>
+<dd><%= @formatted_principal %></dd>
 
 <dt>Payment</dt>
-<dd><%= "$#{'%.2f' % @result}" %></dd>
+<dd><%= @formatted_payment %></dd>
 
 <p></p>
 
